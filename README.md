@@ -107,6 +107,8 @@ npm start
 Abra http://localhost:3000
  no navegador.
 
+ ---
+
 🙋 Autora
 
 Kátia Dantas
