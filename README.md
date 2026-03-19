@@ -1,46 +1,114 @@
-# Getting Started with Create React App
+# 🎮 EPLAY - E-commerce de Games
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📎 Sumário
 
-## Available Scripts
+• [📌 Resumo do Projeto](#-resumo-do-projeto)  
+• [⭐ Desafio](#-desafio)  
+• [📂 Temas abordados](#-temas-abordados)  
+• [✔️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)  
+• [⚙️ Funcionalidades e Recursos](#-funcionalidades-e-recursos)  
+• [💻 Demonstração](#-demonstração)  
+• [🚀 Como Executar o Projeto](#-como-executar-o-projeto)  
+• [🙋 Autora](#-autora)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📌 Resumo do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O **EPLAY** é uma aplicação web que simula um **e-commerce de jogos digitais**, desenvolvida como parte do módulo de Front-End do curso **Full Stack Python da EBAC**.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A aplicação foi construída como uma **SPA (Single Page Application)** utilizando React e TypeScript, permitindo navegação dinâmica entre páginas sem recarregar o navegador.
 
-### `npm test`
+O projeto possui um **catálogo de jogos, carrinho de compras e fluxo de checkout**, aplicando conceitos modernos de desenvolvimento front-end e gerenciamento de estado global.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⭐ Desafio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• Construir uma SPA completa utilizando React  
+• Implementar gerenciamento de estado global com Redux Toolkit  
+• Criar um carrinho de compras funcional  
+• Desenvolver um fluxo de checkout com validação de formulário  
+• Utilizar Styled Components para estilização componentizada  
+• Trabalhar com rotas utilizando React Router  
+• Consumir dados de uma API simulada  
+• Realizar o deploy da aplicação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Temas abordados
 
-### `npm run eject`
+• Componentização com React  
+• Gerenciamento de estado global com Redux Toolkit  
+• Rotas em SPA com React Router  
+• Validação de formulários com Formik e Yup  
+• Estilização com Styled Components  
+• Tipagem com TypeScript  
+• Boas práticas de organização de projeto  
+• Deploy com Vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✔️ Tecnologias Utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+• React  
+• TypeScript  
+• Redux Toolkit  
+• React Router DOM  
+• Styled Components  
+• Formik  
+• Yup  
+• React Input Mask  
+• React Spinners  
+• Git e GitHub  
+• Vercel
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Funcionalidades e Recursos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✔️ Catálogo de jogos com navegação entre páginas  
+✔️ Visualização detalhada dos jogos  
+✔️ Adição e remoção de itens no carrinho  
+✔️ Cálculo automático do valor total da compra  
+✔️ Fluxo completo de checkout  
+✔️ Validação de formulários no processo de compra  
+✔️ Interface responsiva para diferentes dispositivos  
+✔️ Indicadores de carregamento durante requisições
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+## 💻 Demonstração
+
+📍 Acesse a aplicação online:
+
+🔗 https://eplay-ftx8.vercel.app/
+
+---
+
+## 🚀 Como Executar o Projeto
+
+Clone o repositório:
+
+git clone https://github.com/Katiadantass/eplay.git
+
+Entre na pasta do projeto:
+
+cd eplay
+
+Instale as dependências:
+
+npm install
+
+Execute o projeto:
+
+npm start
+
+Abra http://localhost:3000
+ no navegador.
+
+🙋 Autora
+
+Kátia Dantas
+
+🔗 https://github.com/Katiadantass
