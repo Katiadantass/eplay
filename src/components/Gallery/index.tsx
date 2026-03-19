@@ -24,8 +24,6 @@ const Gallery = ({ defaultCover, name, items }: Props) => {
     type: 'image',
     url: ''
   })
-  const [modalEstadoAberto, setModalEstaAberto] = useState(false)
-  const [modalUrl, setModalUrl] = useState('')
 
   const getMediaCover = (item: GalleryItem) => {
     if (item.type === 'image') return item.url
@@ -58,7 +56,6 @@ const Gallery = ({ defaultCover, name, items }: Props) => {
                   type: media.type,
                   url: media.url
                 })
-                setModalEstaAberto(true), setModalUrl(media.url)
               }}
             >
               <img
